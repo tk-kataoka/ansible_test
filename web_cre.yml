@@ -1,4 +1,4 @@
-- hosts: TEST_INVENTORY
+- hosts: web
   become: yes
   vars:
     your_impression: awesome
