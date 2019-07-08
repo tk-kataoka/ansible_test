@@ -10,11 +10,8 @@
 
     - name: put template file
       template:
-        src: /root/ansiblefiles/webserver_create/index.html.j2
+        src: index.html.j2
         dest: /var/www/html/index.html
-        owner=root
-        group=root
-        mode=0644
 
     - name: start service
       service:
