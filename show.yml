@@ -1,0 +1,9 @@
+- hosts: 
+  become: yes
+  vars:
+    your_impression: awesome
+  tasks:
+    - name: install package
+      yum:
+        name: httpd
+        state: latest
