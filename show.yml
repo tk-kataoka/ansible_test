@@ -1,4 +1,4 @@
-- hosts: ftd
+- hosts: FTDOS
   connection: httpapi
   tasks:
     - name: Install image v6.4.0 on FTD 2110
